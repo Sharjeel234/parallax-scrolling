@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layer_header">
+                        <div class="layer_caption">Welcome to Parallax</div>
+                        <div class="layer_title">Fairy Forest</div>
+                    </div>
+                    <div class="layer layers_base" style="background-image: url(./Images/layer-base.png);"></div>
+                    <div class="layer layers_middle" style="background-image: url(./Images/layer-middle.png);"></div>
+                    <div class="layer layers_front" style="background-image: url(./Images/layer-front.png);"></div>
+                </div>
+            </header>
+
+            <article class="main-article" style="background-image: url(./Images/dungeon.jpg);">
+                <div class="main-article_content">
+                    <h2 class="main-article_header">to be continued</h2>
+                    <p class="main-article_para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quasi quos
+                        praesentium blanditiis exercitationem magnam eum assumenda ea, cumque ullam itaque omnis
+                        quisquam modi reprehenderit ipsa. Distinctio nulla dicta voluptate.</p>
+                </div>
+                <div class="copy">© Sharjeel Mansoor</div>
+            </article>
+        </div>
+    </div>
+
+    <script src="./libs/gsap/gsap.min.js"></script>
+    <script src="./libs/gsap/ScrollSmoother.min.js"></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js"></script>
+
+    <script src="./JS/app.js"></script>
+</body>
+
+</html>
